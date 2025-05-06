@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(20, 60, 220);
+}
+h2,h1{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateX(-50%,-50%);
+    font-size: 80px;
+    white-space: nowrap;
+}
