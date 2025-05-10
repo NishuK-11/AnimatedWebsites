@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "The Great Gatsby",
+    "title": "A classic novel set in the Jazz Age",
+    "category": "Fiction",
+    "price": 10.99,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Atomic Habits",
+    "title": "A guide to building good habits and breaking bad ones",
+    "category": "Self-help",
+    "price": 15.5,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "1984",
+    "title": "A dystopian novel by George Orwell",
+    "category": "Science Fiction",
+    "price": 12.75,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "The Great Gatsby",
+    "title": "A classic novel set in the Jazz Age",
+    "category": "Fiction",
+    "price": 10.99,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Atomic Habits",
+    "title": "A guide to building good habits and breaking bad ones",
+    "category": "Self-help",
+    "price": 15.5,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "1984",
+    "title": "A dystopian novel by George Orwell",
+    "category": "Science Fiction",
+    "price": 12.75,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "The Great Gatsby",
+    "title": "A classic novel set in the Jazz Age",
+    "category": "Fiction",
+    "price": 10.99,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Atomic Habits",
+    "title": "A guide to building good habits and breaking bad ones",
+    "category": "Self-help",
+    "price": 15.5,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "1984",
+    "title": "A dystopian novel by George Orwell",
+    "category": "Science Fiction",
+    "price": 12.75,
+    "image": "mai-nastik-kyun-hoon.jpeg"
+  }
+]
