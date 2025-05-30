@@ -6,6 +6,9 @@
 //     backgroundColor:"blue",
 //     borderRadius:"50%",
 //     scale:"0.5",
+// Then reverse back to its original state (due to yoyo: true),
+
+// Repeat the process forever (because repeat: -1).
 //     repeat:-1,
 //     yoyo:true
 // })
