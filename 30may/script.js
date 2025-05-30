@@ -1,3 +1,5 @@
+
+
 // gsap.from("#id1 #box",{
 //     scale:0,
 //     delay:1,
@@ -95,3 +97,23 @@ gsap.to("#page4 h2",{
         pin: true
     }
 })
+
+//  1. git pull origin main --rebase
+// Ye command:
+
+// Pehle GitHub se naye commits laata hai
+
+// Tumhare local commits temporarily hataata hai
+
+// Pehle naye remote commits lagata hai
+
+// Uske baad tumhare commits fir se "reapply" karta hai
+
+// 📌 Resulting Git history (clean, linear):
+// mathematica
+// Copy
+// Edit
+// GitHub wali history:     A --- B
+// Tumhari local commits:          \--- C --- D
+// After rebase:           A --- B --- C' --- D'
+// C’ aur D’ tumhare wahi commits hain, bas nayi history ke sath reapply kiye gaye hain

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(1, 9, 11);
+    border-radius: 2px;
+    box-shadow: inset;
+
+}
+#string {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
