@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    color:white;
+    font-family: "Edu SA Hand", cursive;
+    font-weight: 700;
+}
+#nav h2{
+    font-size: 30px;
+}
+#nav i{
+    font-size: 30px;
+    font-weight:800;
+}
+#full{
+    height: 80%;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top:0;
+    right: 0;
+}
