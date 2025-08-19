@@ -1,0 +1,14 @@
+/* Reset margin and hide overflow */
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000; /* black background */
+}
+
+/* Make canvas fill full viewport */
+canvas.webgl {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  touch-action: none; /* prevent scrolling on touch devices */
+}
