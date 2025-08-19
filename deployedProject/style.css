@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    color: red;
+    background-color: black;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 0 1vw;
+    padding-top: 18vh;
+    background-color: aqua;
+}
+#page1 h1{
+    font-size: 15.4vw;
+    text-transform: uppercase;
+    font-family: helvetica;
+    line-height: 14vw;
+    letter-spacing: -5px;
+}
+#video-container{
+    height: 100vh;
+    width: 100%;
+    margin-top: 1vw;
+    position: relative;
+}
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#video-container #play{
+    padding: 3vw 2.3vw;
+    width: 8vw;
+    background-color:black ;
+    color: #fff;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    font-family: helvetica;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+    position: fixed;
+}
