@@ -27,4 +27,6 @@ function videoAnimation(){
 }
 videoAnimation()
 
-gsap.from('#page1 h1')
+gsap.from('#page1 h1',{
+    
+})
