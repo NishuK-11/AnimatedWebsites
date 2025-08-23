@@ -5,17 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js">
 </head>
 <body>
+    <div id="cursor">
+
+    </div>
     <div id="main">
         <div id="page1">
-            <h1>Change the course</h1>
+            <h1>Change</h1>
+            <h1>the course</h1>
             <div id="video-container">
                 <div id="play">PLAY</div>
                 <video  autoplay loop muted src="./sprouting.mp4"></video>
             </div>
         </div>
+        <div id="page2">
+            <div id="elem1" class="elem">
+                <img  data-scroll data-scroll-speed="1.5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgMZiG0oRjn3PC_Jn4ZQ1QD9z5DUSueqA93g&s" alt="img1">
+                <div data-scroll data-scroll-speed="-0.5" class="dets">
+
+                </div>
+            </div>
+            <div id="elem2" class="elem">
+                <img  data-scroll data-scroll-speed="1.5" src="https://i.pinimg.com/originals/42/90/74/42907405f16ba768786a616095a8cfb2.jpg" alt="">
+                <div data-scroll data-scroll-speed="-0.5" class="dets">
+                    
+                </div>
+            </div>
+            <div id="elem3" class="elem">
+                <img  data-scroll data-scroll-speed="1.5" src="https://wow-website-data.s3-accelerate.amazonaws.com/2024/12/RK-25.png" alt="">
+                <div data-scroll data-scroll-speed="-0.5" class="dets">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <div class="child" id="child1">
+                <img src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjgwLTE2Ni1wLWwxZGJ1cTN2LnBuZw.png" alt="">
+            </div>
+            <div class="child" id="child2">
+                <img src="https://cdn.magicdecor.in/com/2023/12/22112350/3D-Mighty-Leopard-Wallpaper-for-Wall-710x488.jpg" alt="">
+            </div>
+            <div class="child" id="child3">
+                <img src="https://cdn.wallpapersafari.com/8/75/N9XOqF.jpg" alt="">
+            </div>
+            <div class="child" id="child4">
+                <img src="https://m.media-amazon.com/images/I/61qbMx4oXJL._UF1000,1000_QL80_.jpg" alt="">
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
