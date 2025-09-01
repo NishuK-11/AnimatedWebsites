@@ -59,6 +59,7 @@ html,body{
     opacity: 0;
     scale: 0;
     position: fixed;
+    color:red;
 }
 #page2{
     min-height: 100vh;
